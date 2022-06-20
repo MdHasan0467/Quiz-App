@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quize App With Fixed Time</title>
+  <link rel="stylesheet" href="Quize.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="MyQuizApp">
+
+    <div class="img">
+      <img src="img/Quize-img-01.jpg" alt="">
+    </div>
+
+    <div class="text1">
+      <h3>Quiz App With Fixed Time</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      <h3>Quiz App With Fixed Time</h3>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, minus?</p>
+    </div>
+
+    <div class="btn">
+      <button>Start Quiz</button>
+    </div>
+  </div>
+
+
+
+  <div class="RulesBox">
+    <div class="RulesTitle">Some Rules of this Quiz</div>
+
+    <div class="RulesList">
+      <ol>
+        <li>You will have <span style="color:#007bff; font-family: sans-serif; ">15 seconds</span> per each question.</li>
+        <li>Once you select your answer, it can't be undone.</li>
+        <li>You can't select any option once time goes off.</li>
+        <li>You can't exit from the quiz while you're playing.</li>
+        <li>You'll get points on this basis of your correct answers.</li>
+
+      </ol>
+    </div>
+
+    <div class="btn2">
+      <button class="ExitBtn"> Exit Quiz</button>
+      <button class="ContinueBtn"> Continue </button>
+    </div>
+
+  </div>
+
+
+  <div class="Questions">
+
+    <div class="QuestionsHeader">
+
+      <div class="title"> Start Exam </div>
+
+      <div class="TimeCount">
+
+        <div class="TimeLeft">Time Left</div>
+         <div class="SecondsCount">15</div>
+
+      </div>
+
+      <div class="TimeLines"></div>
+
+    </div>
+
+    <div class="section">
+     <div><span class="text">
+       <!-- 1. What Does HTML Stand For?</span> -->
+      </div>
+     <div class="MyOptions"> </div>
+    </div>
+
+    <footer>
+      <div class="total_que">
+        <!-- <p>1 of 5 Questions</p> -->
+      </div>
+      <button class="NextBtn">Next Que</button>
+    </footer>
+
+  </div>
+
+  
+ 
+  
+
+  <script src="Quize.js"></script>
+  <script src="Questions.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Tiro Tamil',
+    serif;
+}
+body{
+  background-color:#f1f1f1;
+}
+.MyQuizApp{
+  width: 320px;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 48px;
+}
+.img img{
+  width: 100%;
+}
+.text1{
+  width: 90%;
+  margin: auto;
+}
+.text1 h3{
+  margin-top: 20px;
+}
+.btn{
+  width: 60%;
+  margin-left: 171px !important;
+  margin-top: -13px;
+}
+
+.btn button{
+  font-size: 20px;
+  font-weight: 600;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 6px 25px;
+  cursor: pointer;
+  border-radius: 57px 0px 51px 0px;
+  transition: 0.2s ease-in-out;
+}
+.btn button:hover{
+  background-color: rgb(29, 194, 194);
+} 
+
+
+
+.RulesBox.activeInfo{
+  opacity: 1;
+  z-index: 5;
+  pointer-events: auto;
+  transform: translate(-50%,
+    -50%) scale(1);
+}
+
+.RulesBox{
+  width: 320px;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 48px;
+  opacity: 0;
+  pointer-events: none;
+} 
+.RulesTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+}
+.RulesList{
+  width: 80%;
+  margin: auto;
+}
+
+ol li{
+  font-size: 17px;
+  font-weight: 500;
+  padding:10px 25px ;
+}
+.btn2 button{
+    margin-top: 125px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 6px 25px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.ExitBtn{
+  border-radius: 0px 47px 0px 46px;
+}
+.ExitBtn:hover{
+  background-color: rgb(230, 0, 0);
+}
+.ContinueBtn{
+  border-radius: 57px 0px 46px 0px;
+  margin-left: 36px;
+}
+.ContinueBtn:hover{
+  background-color: rgb(14, 116, 36);
+}
+
+
+.Questions.activeQuiz{
+  opacity: 1;
+  z-index: 5;
+  pointer-events: auto;
+  transform: translate(-50%,
+          -50%) scale(1);
+}
+
+.Questions{
+ width: 320px;
+ height: 580px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ background-color: white;
+ box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+ transform: translate(-50%, -50%);
+ border-radius: 48px;
+ opacity: 0;
+ pointer-events: none;
+}
+.QuestionsHeader{
+  position: relative;
+  z-index: 2;
+  height: 70px;
+  padding: 0 30px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.QuestionsHeader .title{
+  font-size: 15px;
+  font-weight: 600;
+}
+.TimeCount{
+  color: #004085;
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+  width: 120px;
+  height: 25px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.SecondsCount{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 26px;
+  width: 45px;
+  color: white;
+  border-radius: 5px;
+  line-height: 26px;
+  text-align: center;
+  background: #343a40;
+  border: 1px solid #343a40;
+  user-select: none;
+}
+.TimeLines{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 3px;
+  background: #007bff;
+}
+.section{
+  padding: 25px 30px 20px 30px;
+}
+.text{
+  font-size: 25px;
+  font-weight: 600;
+}
+.MyOptions{
+  padding: 20px 0px;
+  display: block;
+}
+.options{
+  background: aliceblue;
+  border: 1px solid #84c5fe;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.options:hover{
+  color: #004085;
+  background: #cce5ff;
+  border: #b8daff;
+}
+footer{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+}
+.total_que{
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+.total_que p{
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+footer button{
+  font-size: 20px;
+    font-weight: 600;
+    padding: 6px 25px;
+    outline: none;
+    border: none;
+    border-radius: 57px 0px 51px 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    background: tomato;
+    cursor: pointer;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin-top: -37px;
+}
+footer .NextBtn:hover{
+   background: rgb(16, 85, 85);
+}
